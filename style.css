@@ -1,0 +1,44 @@
+
+        h2 {
+            color:black;
+        }
+        body{
+           background-color: lightblue;
+           padding: 3%;
+        }
+        .fonte{
+            font-style: italic;
+            text-align: center;
+            
+           
+        }
+        .tamanho{
+            font-size: 16px;
+        }
+        .foto{
+            display: block;
+            margin-left: 30px;
+            margin-right: auto;
+            border-radius: 50%; 
+            float: left;
+            margin-top: 5px;
+            padding: 5px;
+            background-color: rosybrown;
+        }
+        
+        .conjunto{
+            border: 5px solid rgb(39, 6, 39);
+        }
+
+    .descriçao{
+        height: 300px;
+        border: 5px solid rgb(39, 6, 39);
+        font-size: 20px;
+        position:relative;
+        top: 50%;
+        text-align: center;
+    }
+
+    ul li:nth-child(odd){
+        background-color: salmon;
+    }
